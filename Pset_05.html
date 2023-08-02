@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+
+    <h1>This is html forms !</h1>
+    <form action="backend.php">
+        <div>
+            Name: <input type="text" name="MyName">
+        </div>
+        <br>
+        <div>
+            <!--div is the division block insted of <br>-->
+
+            Roll No: <input type="text" name="MyRollno">
+        </div>
+        <br>
+
+        <div>
+            Email: <input type="text" name="MyEmail">
+        </div>
+        <br>
+        <div>
+            Date: <input type="date" name="MyDate">
+            <!-- for date type input:date -->
+        </div>
+        <br>
+        <div>
+            Eligibbility: <input type="checkbox" name="MyEligibbility">
+            <!-- same for checkboxwrite input:chatbox -->
+        </div>
+        <br>
+        <div>
+            Gender:<br>
+            mail <input type="radio" name="my gender" id=""><br>
+            femail<input type="radio" name="my gender" id=""><br>
+            others <input type="radio" name="my gender" id=""><br>
+            <!-- you can add many option of choice one of them ny input:radio  -->
+
+        </div>
+        <br>
+
+
+        <div>
+            Write about your self: <br>
+            <textarea name="Mytext" id="" cols="30" rows="10"></textarea>
+            <!-- for text box type textarea -->
+        </div>
+        <br>
+
+        <div>
+            Submit:<input type="submit" value="Submit Now">
+            <!-- used input:submit -->
+
+            Reset: <input type="reset" value="reset now">
+            <!-- used input:reset -->
+        </div>
+        <br>
+        <div>
+            <label for="car">car</label>
+            <select name="my car" id="car">
+                <option value="ind">Indica</option>
+                <option value="swif">Swift</option>
+                <!-- you can make prefrences for selecting one of them  -->
+
+            </select>
+        </div>
+
+    </form>
+</body>
+
+</html>
